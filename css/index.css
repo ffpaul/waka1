@@ -113,3 +113,8 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+div.row-fluid div.span9 div.span3 {
+	border:1px solid #006600;
+	padding:3px;
+}
