@@ -76,19 +76,21 @@
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
               <li class="nav-header">The Quickie</li>
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">Waka Info</a></li>
-              <li><a href="#">Full Schedule &amp; Set Alerts</a></li>
-              <li><a href="#">Where's my Campsite?</a></li>
-              <li><a href="#">Waka Radio</a></li>
-              <li><a href="#">Festival Map &amp; Vendor Info</a></li>
-              <li><a href="#">Waka Photo Booth</a></li>
-              <li><a href="#">News &amp; Updates</a></li>
-              <li><a href="#">My Profile</a></li>
+              <li class="active"><a href="#" id="btnHome">Home</a></li>
+              <li><a href="#" id="btnInfo">Waka Info</a></li>
+              <li><a href="#" id="btnSchedule">Full Schedule &amp; Set Alerts</a></li>
+              <li><a href="#" id="btnCampsite">Where's my Campsite?</a></li>
+              <li><a href="#" id="btnRadio">Waka Radio</a></li>
+              <li><a href="#" id="btnMap">Festival Map &amp; Vendor Info</a></li>
+              <li><a href="#" id="btnWPB">Waka Photo Booth</a></li>
+              <li><a href="#" id="btnNews">News &amp; Updates</a></li>
+              <li><a href="#" id="btnProfile">My Profile</a></li>
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
-        <div class="span9">
+        
+        <!-- Wakarusa App Home -->
+        <div class="span9" id="wakaHome">
           <div class="hero-unit">
             <h1>Hello, Wakarusians!</h1>
             <p>We're glad you're here.  Peace, Love, and Dancing!</p>
@@ -140,6 +142,176 @@
           </div><!--/row-->
         </div><!--/span-->
       </div><!--/row-->
+      <!-- /Wakarusa App Home -->
+      
+      <!-- Wakarusa Info -->
+      <div class="row-fluid hidden" id="wakaInfo">
+      	<div class="span1">
+      		Colapsed menu.
+      	</div><!--/span-->
+      	<div class="span11">
+      		<h2>Wakarusa Info Page</h2>
+      		<p>Safety Alerts<br />Loaded from the server!</p>
+      		<p>Stage Changes<br />Loaded from the server!</p>
+      		<p>Vendor Specials<br />Loaded from the server!</p>
+      		<p>Address &amp; Directions to Festival Grounds</p>
+      		<p>Contact List</p>
+      	</div><!--/span-->
+      </div><!--/row-->
+      <!-- /Wakarusa Info -->
+
+
+	  <!-- Schedule & Plan Set Alerts -->
+      <div class="row-fluid hidden" id="wakaSchedule">
+      	<div class="span1">
+      		Colapsed menu.
+      	</div><!--/span-->
+      	<div class="span11">
+      		<h2>Schedule &amp; Stage Times</h2>
+      		<div class="span4">
+	      		<h3>Stage 1</h3>
+	      		<ul>
+	      			<li>Band 1 <a href="#">Add Alert &raquo;</a></li>
+	      			<li>Band 2 <a href="#">Add Alert &raquo;</a></li>
+	      			<li>Band 3 <a href="#">Add Alert &raquo;</a></li>
+	      		</ul>
+      		</div>
+      		<div class="span4">
+	      		<h3>Stage 2</h3>
+	      		<ul>
+	      			<li>Band 4 <a href="#">Add Alert &raquo;</a></li>
+	      			<li>Band 5 <a href="#">Add Alert &raquo;</a></li>
+	      			<li>Band 6 <a href="#">Add Alert &raquo;</a></li>
+	      		</ul>
+      		</div>
+      		<div class="span4">
+	      		<h3>Stage 3</h3>
+	      		<ul>
+	      			<li>Band 7 <a href="#">Add Alert &raquo;</a></li>
+	      			<li>Band 8 <a href="#">Add Alert &raquo;</a></li>
+	      			<li>Band 9 <a href="#">Add Alert &raquo;</a></li>
+	      		</ul>
+      		</div>
+      	</div><!--/span-->
+      </div><!--/row-->
+      <!-- /Schedule & Plan Set Alerts -->
+
+	  <!-- Campsite Pin Drop -->
+      <div class="row-fluid hidden" id="wakaCampsite">
+      	<div class="span1">
+      		Colapsed menu.
+      	</div><!--/span-->
+      	<div class="span11">
+      		<h2>Campsite Pin Drop</h2>
+      		<div class="span6">
+	      		<h3>Your Campsite</h3>
+	      		<p>Fancy Map Here, with GPS based pin drop, etc.</p>
+      		</div>
+      		<div class="span6">
+	      		<h3>Friend's Campsites</h3>
+	      		<p>Another Fancy Map Here, with more pins... maybe...</p>
+      		</div>
+      	</div><!--/span-->
+      </div><!--/row-->
+      <!-- /Campsite Pin Drop -->
+
+	  <!-- Waka Festival Map -->
+      <div class="row-fluid hidden" id="wakaMap">
+      	<div class="span1">
+      		Colapsed menu.
+      	</div><!--/span-->
+      	<div class="span11">
+      		<h2>Festival Map &amp; Vendor Info</h2>
+      		<div class="span12">
+	      		<h3>Festival Map</h3>
+	      		<p>Fancy Map Here, zoomable and whatnot, I hope.</p>
+      		</div>
+      		<div class="span1 hidden">
+	      		<h3>Vendor 1 Popup</h3>
+	      		<p>Some info about this vendor, their products, pictures?</p>
+      		</div>
+      		<div class="span1 hidden">
+	      		<h3>Vendor 2 Popup</h3>
+	      		<p>Some info about this vendor, their products, pictures?</p>
+      		</div>
+      		<div class="span1 hidden">
+	      		<h3>Vendor 3 Popup</h3>
+	      		<p>Some info about this vendor, their products, pictures?</p>
+      		</div>
+      		<div class="span1 hidden">
+	      		<h3>Bathroom 1 Popup</h3>
+	      		<p>Bathroom details:  bring toilet paper!</p>
+      		</div>
+      		<div class="span1 hidden">
+	      		<h3>Showers 1 Popup</h3>
+	      		<p>Shower details:  bring soap... on a rope.</p>
+      		</div>
+      		<div class="span1 hidden">
+	      		<h3>Medical 1 Popup</h3>
+	      		<p>Medical Tent:  we gots bandaids!</p>
+      		</div>
+      		
+      	</div><!--/span-->
+      </div><!--/row-->
+      <!-- /Waka Festival Map-->
+
+	  <!-- Waka Photo Booth -->
+      <div class="row-fluid hidden" id="wakaWPB">
+      	<div class="span1">
+      		Colapsed menu.
+      	</div><!--/span-->
+      	<div class="span11">
+      		<h2>Wakarusa Photo Booth</h2>
+      		<div class="span12">
+	      		<h3>Post the action live to the Wakarusa.com site!</h3>
+	      		<p>This will be magical, I know it.  For now, close your eyes and pretend.</p>
+	      		<p>[Photo Picker]</p>
+	      		<p>[Caption]</p>
+	      		<p>[etc.]</p>
+      		</div>
+     	</div><!--/span-->
+      </div><!--/row-->
+      <!-- /Waka Photo Booth-->
+
+	  <!-- Waka News -->
+      <div class="row-fluid hidden" id="wakaNews">
+      	<div class="span1">
+      		Colapsed menu.
+      	</div><!--/span-->
+      	<div class="span11">
+      		<h2>Wakarusa News &amp; Updates</h2>
+      		<div class="span12">
+	      		<h3>Some exciting new information, everyone needs!</h3>
+	      		<p>This will be connected and come from the server.</p>
+      		</div>
+     	</div><!--/span-->
+      </div><!--/row-->
+      <!-- /Waka News-->
+
+	  <!-- Waka News -->
+      <div class="row-fluid hidden" id="wakaProfile">
+      	<div class="span1">
+      		Colapsed menu.
+      	</div><!--/span-->
+      	<div class="span11">
+      		<h2>Your Wakarusa App Profile</h2>
+      		<div class="span12">
+	      		<h3>Information about the current user.</h3>
+	      		<p>This will be connected and talk back-n-forth with the server.</p>
+
+	      		<p>Name: <span id="profileName">Your Name</span></p>
+	      		<p>Phone: <span id="profilePhone">816-555-1212</span></p>
+	      		<p>Email: <span id="profileEmail">dude@thebiglebowski.com</span></p>
+	      		<p>TicketID: <span id="profileTicketID">AB-123-VIP-456</span></p>
+
+	      		<p>Alias: <span id="profileAlias">SuperSillius</span></p>
+	      		<p>Avatar: <span id="profileAvatar">[photo of some sort]</span></p>
+	      		
+      		</div>
+     	</div><!--/span-->
+      </div><!--/row-->
+      <!-- /Waka News-->
+
 
       <hr>
 
