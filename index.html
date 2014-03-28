@@ -61,9 +61,9 @@
               Logged in as <a href="#" class="navbar-link">The Dude</a>
             </p>
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">Info</a></li>
-              <li><a href="#contact">Schedule</a></li>
+              <li class="active"><a href="#" rel="wakaHome">Home</a></li>
+              <li><a href="#" rel="wakaInfo">Info</a></li>
+              <li><a href="#" rel="wakaSchedule">Schedule</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -71,26 +71,26 @@
     </div>
         
 <div class="container-fluid">
-      <div class="row-fluid">
+      <div class="row-fluid active" id="wakaHome">
         <div class="span3">
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
               <li class="nav-header">The Quickie</li>
-              <li class="active"><a href="#" id="btnHome">Home</a></li>
-              <li><a href="#" id="btnInfo">Waka Info</a></li>
-              <li><a href="#" id="btnSchedule">Full Schedule &amp; Set Alerts</a></li>
-              <li><a href="#" id="btnCampsite">Where's my Campsite?</a></li>
-              <li><a href="#" id="btnRadio">Waka Radio</a></li>
-              <li><a href="#" id="btnMap">Festival Map &amp; Vendor Info</a></li>
-              <li><a href="#" id="btnWPB">Waka Photo Booth</a></li>
-              <li><a href="#" id="btnNews">News &amp; Updates</a></li>
-              <li><a href="#" id="btnProfile">My Profile</a></li>
+              <li class="active"><a href="#" class="btn" rel="wakaHome">Home</a></li>
+              <li><a href="#" class="btn" rel="wakaInfo">Waka Info</a></li>
+              <li><a href="#" class="btn" rel="wakaSchedule">Full Schedule &amp; Set Alerts</a></li>
+              <li><a href="#" class="btn" rel="wakaCampsite">Where's my Campsite?</a></li>
+              <li><a href="#" class="btn" rel="wakaRadio">Waka Radio</a></li>
+              <li><a href="#" class="btn" rel="wakaMap">Festival Map &amp; Vendor Info</a></li>
+              <li><a href="#" class="btn" rel="wakaWPB">Waka Photo Booth</a></li>
+              <li><a href="#" class="btn" rel="wakaNews">News &amp; Updates</a></li>
+              <li><a href="#" class="btn" rel="wakaProfile">My Profile</a></li>
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
-        
+        <br clear="all" />
         <!-- Wakarusa App Home -->
-        <div class="span9" id="wakaHome">
+        <div class="span9">
           <div class="hero-unit">
             <h1>Hello, Wakarusians!</h1>
             <p>We're glad you're here.  Peace, Love, and Dancing!</p>
@@ -100,44 +100,44 @@
             <div class="span3">
               <h2>Waka Info</h2>
               <p>Information about Safety Alerts, Stage Changes, Vendor Specials, Contact Information, Where the festival is located, etc.</p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+              <p><a class="btn" href="#" rel="wakaInfo">View details &raquo;</a></p>
             </div><!--/span-->
             <div class="span3">
-              <h2>Schedule & Plan Your Waka Set Alerts</h2>
+              <h2>Schedule &amp; Plan Your Waka Set Alerts</h2>
               <p>View the entire schedule of the festival.  You can also setup alerts for various sets so that you won't miss your favorite jams!</p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+              <p><a class="btn" href="#" rel="wakaSchedule">View details &raquo;</a></p>
             </div><!--/span-->
             <div class="span3">
               <h2>Campsite Pin Drop</h2>
               <p>Everyone can misplace something, here you can find your way back to your campsite.</p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+              <p><a class="btn" href="#" rel="wakaCampsite">View details &raquo;</a></p>
             </div><!--/span-->
             <div class="span3">
               <h2>Waka Radio</h2>
               <p>Listen Live, whereever you are!</p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+              <p><a class="btn" href="#" rel="wakaRadio">View details &raquo;</a></p>
             </div><!--/span-->
           </div><!--/row-->
           <div class="row-fluid">
             <div class="span3">
               <h2>Festival Site Map &amp; Vendor Info</h2>
               <p>Where's the bathroom?  Where's the beef?  These maps and guides will help you find what you're looking for.</p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+              <p><a class="btn" href="#" rel="wakaMap">View details &raquo;</a></p>
             </div><!--/span-->
             <div class="span3">
               <h2>Waka Photo Booth</h2>
               <p>Post live action shots directly to the Wakarusa website, facebook, where-evs!</p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+              <p><a class="btn" href="#" rel="wakaWPB">View details &raquo;</a></p>
             </div><!--/span-->
             <div class="span3">
               <h2>News & Updates</h2>
               <p>The latest info about what's going on.</p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+              <p><a class="btn" href="#" rel="wakaNews">View details &raquo;</a></p>
             </div><!--/span-->
             <div class="span3">
               <h2>Your Profile</h2>
               <p>Save some settings to make your life easier while Wakarusing!</p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+              <p><a class="btn" href="#" rel="wakaProfile">View details &raquo;</a></p>
             </div><!--/span-->
           </div><!--/row-->
         </div><!--/span-->
@@ -146,20 +146,19 @@
       
       <!-- Wakarusa Info -->
       <div class="row-fluid hidden" id="wakaInfo">
-      	<div class="span1">
+      	<div class="span2">
       		Colapsed menu.
       	</div><!--/span-->
-      	<div class="span11">
+      	<div class="span10">
       		<h2>Wakarusa Info Page</h2>
-      		<p>Safety Alerts<br />Loaded from the server!</p>
-      		<p>Stage Changes<br />Loaded from the server!</p>
-      		<p>Vendor Specials<br />Loaded from the server!</p>
+      		<p>Safety Alerts<br /><span id="safetyAlerts">Loading from the server!</span></p>
+      		<p>Stage Changes<br /><span id="stageChanges">Loading from the server!</span></p>
+      		<p>Vendor Specials<br /><span id="vendorSpecials">Loading from the server!</span></p>
       		<p>Address &amp; Directions to Festival Grounds</p>
       		<p>Contact List</p>
       	</div><!--/span-->
       </div><!--/row-->
       <!-- /Wakarusa Info -->
-
 
 	  <!-- Schedule & Plan Set Alerts -->
       <div class="row-fluid hidden" id="wakaSchedule">
@@ -214,6 +213,21 @@
       	</div><!--/span-->
       </div><!--/row-->
       <!-- /Campsite Pin Drop -->
+
+ 	  <!-- Waka Radio -->
+      <div class="row-fluid hidden" id="wakaRadio">
+      	<div class="span1">
+      		Colapsed menu.
+      	</div><!--/span-->
+      	<div class="span11">
+      		<h2>Wakarusa Radio</h2>
+      		<div class="span12">
+	      		<h3>Insert Deli Radio Here</h3>
+	      		<p>This will be nice.</p>
+      		</div>      		
+      	</div><!--/span-->
+      </div><!--/row-->
+      <!-- /Waka Radio-->
 
 	  <!-- Waka Festival Map -->
       <div class="row-fluid hidden" id="wakaMap">
@@ -329,5 +343,6 @@
         </script>
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/funky.js"></script>
     </body>
 </html>
