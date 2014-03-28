@@ -17,7 +17,7 @@
 			console.log("getting the data from server, foo");
 			$.ajax({
 			type: "GET",
-			url: "http://www.thebrunchguide.com/waka/news.json",
+			url: "http://www.thebrunchguide.com/waka/news.json.php",
 			crossDomain: true,
 			contentType: "application/json; charset=utf-8",
 			dataType: "jsonp",

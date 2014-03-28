@@ -118,3 +118,11 @@ div.row-fluid div.span9 div.span3 {
 	border:1px solid #006600;
 	padding:3px;
 }
+
+.infoSpan b {
+	font-size:24px;
+	color:blue;
+}
+.infospan em {
+	color:green!important;
+}
