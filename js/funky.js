@@ -16,22 +16,22 @@
 		$("#wakaInfo").click(function() {
 			console.log("getting the data from server, foo");
 			$.ajax({
-			type: "GET",
-			url: "http://www.thebrunchguide.com/waka/news.json.php",
-			crossDomain: true,
-			contentType: "application/json; charset=utf-8",
-			dataType: "jsonp",
-			jsonpCallback: "someCallBackString",
-			success: function(data) {
-				console.log("Got me some data for the wakaInfo div");
-				$("#safetyAlerts").html(data['safetyAlerts']);
-				$("#stageChanges").html(data['stageChanges']);
-				$("#vendorSpecials").html(data['vendorSpecials']);
-				console.log(data);
-			},
-			error: function() {
-				console.log(this);
-				alert("DOH!");
-			}
+				type: "GET",
+				url: "http://www.thebrunchguide.com/waka/news.json.php",
+				crossDomain: true,
+				contentType: "application/json; charset=utf-8",
+				dataType: "jsonp",
+				jsonpCallback: "someCallBackString",
+				success: function(data) {
+					console.log("Got me some data for the wakaInfo div");
+					$("#safetyAlerts").html(data['safetyAlerts']);
+					$("#stageChanges").html(data['stageChanges']);
+					$("#vendorSpecials").html(data['vendorSpecials']);
+					console.log(data);
+				},
+				error: function() {
+					console.log(this);
+					alert("DOH!");
+				}
 			});
 		});
