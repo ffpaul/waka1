@@ -133,3 +133,26 @@ div.row-fluid div.span9 div.span3 {
 }
 
 li.active > a.btn { color:#0088CC; }
+
+.MainScheduleTable {z-index: 10;}
+.StageScheduleDay {padding: 7px 10px 7px 55px !important;border-top: 1px solid #8d9d8a; position: relative; top: -1px; background: #40632e; }
+.MainScheduleTable tr:first-child td:first-child  {border-top: none !important;border-radius: 7px 0 0 0;}
+.WakaStageHeader {background: #88da84;}
+.LeftColSchedule {background: #d9e4a4; border-top: 1px solid #8d9d8a;border-right: 1px solid #8d9d8a;border-left: 1px solid #8d9d8a; line-height: 13px !important; position: relative; top: -1px;}
+.SetBoxSchedule {background: #d9faa5;}
+.MainStageHeader span, .RevivalStageHeader span, .BackwoodsStageHeader span, .OutpostStageHeader span, .SatelliteStageHeader span, .RiverStageHeader span  {font-size: .8em; font-style: italic; display: block;}
+.MainStageHeader {line-height: 1.1em;background: #70bf44; border-radius: 15px 15px 0 0; border-bottom: 1px solid #7a9176; position: relative;left: -1px; border-left: 1px solid #70bf44;border-right: 1px solid #70bf44; text-align: center; font-weight: bold; text-transform: uppercase; font-size: .8em;}
+.MainSetBoxSchedule {background: #f6fed1; border-top: 5px solid #70bf44;border-bottom: 5px solid #70bf44;}
+.RevivalStageHeader {background: #e6e75c;border-radius: 15px 15px 0 0; border-bottom: 1px solid #7a9176; line-height: 1.1em; text-align: center; font-weight: bold; text-transform: uppercase; font-size: .8em;}
+.RevivalSetBoxSchedule {background: #fdffc6; border-top: 5px solid #e6e75c;border-bottom: 5px solid #e6e75c;}
+.BackwoodsStageHeader {line-height: 1.1em; background: #7fd0da;border-radius: 15px 15px 0 0; border-bottom: 1px solid #7a9176; text-align: center; font-weight: bold; text-transform: uppercase; font-size: .8em;}
+.BackwoodsSetBoxSchedule {background: #f6fed1; border-top: 5px solid #7fd0da;border-bottom: 5px solid #7fd0da;}
+.OutpostStageHeader {line-height: 1.1em;background: #f26c6c; border-radius: 15px 15px 0 0; border-bottom: 1px solid #7a9176; text-align: center; font-weight: bold; text-transform: uppercase; font-size: .8em;}
+.OutpostSetBoxSchedule {background: #fdffc6; border-top: 5px solid #f26c6c;border-bottom: 5px solid #f26c6c;}
+.SatelliteStageHeader {line-height: 1.1em;background: #ababe3; border-radius: 15px 15px 0 0; border-bottom: 1px solid #7a9176; text-align: center; font-weight: bold; text-transform: uppercase; font-size: .8em;}
+.SatSetBoxSchedule {background: #ababe3;background: #f6fed1; border-top: 5px solid #ababe3;border-bottom: 5px solid #ababe3;}
+.RiverStageHeader {line-height: 1.1em;background: #ff985a; border-radius: 15px 15px 0 0; border-bottom: 1px solid #7a9176;  text-align: center; font-weight: bold; text-transform: uppercase; font-size: .8em;}
+.RiverSetBoxSchedule {background: #fdffc6; border-top: 5px solid #ff985a;border-bottom: 5px solid #ff985a;}
+.sticky-element-fixed .MainStageHeader, .sticky-element-fixed .RevivalStageHeader, .sticky-element-fixed .BackwoodsStageHeader, .sticky-element-fixed .OutpostStageHeader, .sticky-element-fixed .SatelliteStageHeader, .sticky-element-fixed .RiverStageHeader {border-radius: 0 0 0 0 !important;}
+.StageScheduleDay h2 {color: #cfeac9 !important; text-shadow: none !important;}
+.sideday {color: #899065 !important;}
