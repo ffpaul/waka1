@@ -39,7 +39,7 @@
 
 		$("#wakaSchedule").click(function() {
 			console.log("getting the data from server, foo");
-			$.ajax( {url : "http://www.wakarusa.com/stage-schedule-mobile/",
+			$.ajax( {url : "http://www.wakarusa.com/stage-schedule-mobile/?"+(Math.random()*100),
 				success : function(data) {
 					console.log("Got me some data for the wakaSchedule div");
 					$("#liveSchedule").html(data);
