@@ -43,6 +43,7 @@
 				success : function(data) {
 					console.log("Got me some data for the wakaSchedule div");
 					$("#liveSchedule").html(data);
+					$(hiddenTimes).hide();
 					//console.log(data);
 				},
 				error : function() {
