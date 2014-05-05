@@ -106,5 +106,10 @@
         <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
         <access origin="http://phonegap.com" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/
     -->
+    
+    <gap:url-scheme name="com.wakarusa.festival.urlscheme" role="None">
+      <scheme>waka</scheme>
+    </gap:url-scheme>
+
 
 </widget>
