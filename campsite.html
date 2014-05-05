@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -15,7 +14,7 @@
 <link rel="apple-touch-startup-image" sizes="1536x2008" href="images/splash/splash-screen-ipad-portrait-retina.png"   media="(device-width: 768px)	and (orientation: portrait)	and (-webkit-device-pixel-ratio: 2)"/>
 <link rel="apple-touch-startup-image" sizes="1496x2048" href="images/splash/splash-screen-ipad-landscape-retina.png"   media="(device-width: 768px)	and (orientation: landscape)	and (-webkit-device-pixel-ratio: 2)"/>
 
-<title>Wakarusa Mobile App Gunn 1</title>
+<title>Waka Campsite Locator</title>
 
 <link href="styles/style.css"     		rel="stylesheet" type="text/css">
 <link href="styles/framework.css" 		rel="stylesheet" type="text/css">
@@ -37,7 +36,7 @@
 
 
 </head>
-<body>
+<body class="intbg">
 
 <div id="preloader">
 	<div id="status">
@@ -48,43 +47,52 @@
     </div>
 </div>
 
-<div class="homepage-wrapper">
-	<div class="topnavwrap">
-		<a href="#" class="settings-home"></a>
-		<a href="#" class="directions-home"></a>
-	</div>
-	<img class="homepage-logo" src="images/logo.png"  alt="img">
-	<img class="homepage-official" src="images/official.png"  alt="img">
-
-    
-    <div class="homepage-navigation">
-    	<a class="home-icon"    href="info.html">Info Center</a>
-        <a class="type-icon"    href="schedule.html">Stage Schedule</a>
-        <a class="jquery-icon"  href="campsite.html">Campsite Locator</a>
-                
-        <a href="radio.html" class="gallery-icon">Waka Radio</a>
-        <a class="folio-icon"   href="map.html">Festival Map</a>
-        <a class="mail-icon"	href="photobooth.html">Photo Booth</a>
-        
-        <div class="clear"></div>
-    </div>
-    
-    <div class="footer">
-    	<a class="facebook-icon" href="#"></a>
-        <a class="google-icon"   href="#"></a>
-        <a class="twitter-icon"  href="#"></a>
-        <div class="clear"></div>
-        <p class="homepage-copyright">Copyright 2014 Wakarusa. <br>All Rights Reserved.</p>
-    </div>
-    
-
-    
+<div class="header">
+	<a href="#" class="show-navigation"></a>
+    <a href="#" class="hide-navigation"></a>
+    <img src="images/intlogo.png" class="page-logo" alt="img">
 </div>
 
-<div class="homepage-background">
-	<div class="bg-pattern"></div>
-    <div class="bg-overlay"></div>
-	<img id="bg" src="images/bg.jpg" alt="img">
+<div class="navigation">
+	<div class="navigation-wrapper">
+        <div class="nav-item">
+            <a href="index.html" class="landing-icon">Homepage<em class="unselected-item"></em></a>
+        </div>
+    	<div class="nav-item">
+        	<a href="info.html" class="homepage-icon">Info Center<em class="unselected-item"></em></a>
+        </div>
+        <div class="nav-item">
+            <a href="schedule.html" class="features-icon">Stage Schedule<em class="unselected-item"></em></a>
+        </div>
+        <div class="nav-item">
+            <a href="campsite.html" class="camera-icon">Campsite Locator<em class="selected-item"></em></a>
+        </div>
+        <div class="nav-item">
+            <a href="radio.html" class="portfolio-icon">Waka Radio<em class="unselected-item"></em></a>
+        </div>
+        <div class="nav-item">
+            <a href="map.html" class="folio-icon">Festival Map<em class="unselected-item"></em></a>
+        </div>
+        <div class="nav-item">
+            <a href="photobooth.html" class="contact-icon">Photo Booth<em class="unselected-item"></em></a>
+        </div>
+    </div>
+</div>
+
+<div class="page-header-clear"></div>
+  
+<h2>CONTENT</h2>
+
+
+<div class="content">
+    <div class="container">
+        <div class="footer-socials">
+            <a href="http://www.facebook.com/wakarusa" class="facebook-footer" target="_blank"></a>
+            <a href="http://instagram.com/wakarusa" class="goup-footer" target="_blank"></a>
+            <a href="https://twitter.com/wakarusafest" class="twitter-footer" target="_blank"></a>
+        </div>
+        <p class="copyright uppercase center-text no-bottom">Copyright 2014 Wakarusa<br> All rights reserved</p>        
+    </div>
 </div>
 <script type="text/javascript" src="phonegap.js"></script>
 </body>
