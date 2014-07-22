@@ -69,6 +69,7 @@ var app = {
     // onError Callback receives a PositionError object
     //
     function onGeoError(error) {
-        alert('code: '    + error.code    + '\n' +
-              'message: ' + error.message + '\n');
+        var element = document.getElementById('geolocation');
+        element.innerHTML ='code: '    + error.code    + '<br />' +
+              'message: ' + error.message + '<br />';
     }
